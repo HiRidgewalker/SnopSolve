@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">秒解</string>
+    <string name="settings">设置</string>
+
+    <string name="hint_need_api">还没配置接口，点左下角设置填入 Base URL 与 API Key</string>
+    <string name="need_camera">需要相机权限才能拍照</string>
+    <string name="need_api_first">请先在设置里填入接口信息</string>
+    <string name="decode_failed">图片解码失败</string>
+
+    <string name="shutter">拍照</string>
+    <string name="subject_auto">自动</string>
+    <string name="subject_math">数学</string>
+    <string name="subject_chinese">语文</string>
+    <string name="subject_english">英语</string>
+    <string name="split_on">切题 开</string>
+    <string name="split_off">切题 关</string>
+    <string name="auto_on">自动 开</string>
+    <string name="auto_off">自动 关</string>
+    <string name="solving">正在解题…</string>
+    <string name="empty_answer">模型没有返回内容</string>
+    <string name="failed_prefix">解题失败：</string>
+    <string name="failed_hint">请检查：Base URL 是否正确（OpenAI 兼容的 /chat/completions）、Key 是否有效、模型是否支持图片输入、网络是否可达。</string>
+    <string name="copied">已复制</string>
+    <string name="copy">复制答案</string>
+    <string name="retry">再拍一张</string>
+    <string name="badge_upload">上传 %.0f KB</string>
+    <string name="badge_cached">命中缓存</string>
+
+    <string name="blur_title">图片有点糊</string>
+    <string name="blur_msg">检测到清晰度偏低，可能影响识别。建议稳住手机、对准焦点再拍一张；也可以直接上传试试。</string>
+    <string name="blur_retry">重拍</string>
+    <string name="blur_send">仍然上传</string>
+
+    <string name="settings_title">接口设置</string>
+    <string name="base_url">Base URL</string>
+    <string name="base_url_hint">例如 https://api.openai.com/v1</string>
+    <string name="api_key">API Key</string>
+    <string name="api_key_hint">sk-...</string>
+    <string name="model">模型</string>
+    <string name="model_hint">需支持图片，例如 gpt-4o-mini / qwen-vl-max</string>
+    <string name="prompt">提示词</string>
+    <string name="blur_threshold">模糊拦截阈值（0 = 关闭）</string>
+    <string name="blur_threshold_hint">默认 80，拍出来的图经常被误报就调小</string>
+    <string name="save">保存</string>
+    <string name="reset_prompt">恢复默认提示词</string>
+    <string name="base_url_required">Base URL 不能为空</string>
+    <string name="base_url_scheme">Base URL 需以 http:// 或 https:// 开头</string>
+    <string name="saved">已保存</string>
+    <string name="settings_note">密钥只保存在本机 SharedPreferences，请勿在公共设备上使用。</string>
+
+    <string name="back_arrow">←</string>
+    <string name="use_original">重新识别</string>
+    <string name="copy_all">复制全部</string>
+    <string name="question_n">第 %1$d 题</string>
+    <string name="explaining">讲解中…</string>
+    <string name="whole_page">整页</string>
+    <string name="segment_badge">切出 %1$d 题 · %2$d ms</string>
+    <string name="all_done">已完成 %1$d 题</string>
+    <string name="crop_failed">裁剪失败</string>
+    <string name="nothing_to_copy">还没有答案</string>
+    <string name="upload_short">上传 %1$.0f KB</string>
+    <string name="answered">已解答 %1$d 题…</string>
+    <string name="streaming_badge">已解答 %1$d 题 · 首题 %2$.1f s</string>
+    <string name="done_badge">%1$d 题 · 首题 %2$.1f s · 全部 %3$.1f s</string>
+    <string name="student_answer">你写的：%1$s</string>
+    <string name="correct_answer">正确答案：%1$s</string>
+    <string name="grading_done">对 %1$d · 错 %2$d · %3$.1fs/%4$.1fs</string>
+    <string name="grade_on">批改 开</string>
+    <string name="grade_off">批改 关</string>
+    <string name="blank_marks">各空：%1$s</string>
+    <string name="explain_hint">▸ 点这里看解析</string>
+    <string name="explain_loading">解析生成中…</string>
+    <string name="explain_failed">解析失败：</string>
+    <string name="explain_empty">（暂无解析）</string>
+</resources>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F1115"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_title"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/settings_note"
+            android:textColor="#8A8F98"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/base_url"
+            android:textColor="#C9CDD4"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/base_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/base_url_hint"
+            android:inputType="textUri"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#5A606B"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="@string/api_key"
+            android:textColor="#C9CDD4"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/api_key"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/api_key_hint"
+            android:inputType="textPassword"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#5A606B"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="@string/model"
+            android:textColor="#C9CDD4"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/model"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/model_hint"
+            android:inputType="text"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#5A606B"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="@string/prompt"
+            android:textColor="#C9CDD4"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/prompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:minLines="6"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#5A606B"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="@string/blur_threshold"
+            android:textColor="#C9CDD4"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/blur_threshold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/blur_threshold_hint"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#5A606B"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/reset_prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_pill"
+            android:text="@string/reset_prompt"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/bg_pill"
+            android:text="@string/save"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+    </LinearLayout>
+</ScrollView>
